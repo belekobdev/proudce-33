@@ -35,6 +35,7 @@ body {
     background: transparent;
     border: 2px solid #EB2D66;
     transform: scale(0.8);
+    color: #FB2D66;
 }
 
 .header-nav a {
