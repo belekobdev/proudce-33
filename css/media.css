@@ -26,6 +26,29 @@
     .footer-nav {
         display: none;
     }
+    .ion {
+        position: absolute;
+        bottom: -434px;
+        right: 226px;
+        font-size: 28px;
+        color: white;
+    }
+    .figurs {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        bottom: -422px;
+        left: 147px;
+    }
+    .figur {
+        position: absolute;
+        bottom: -295px;
+        right: 447px;
+        width: 12px;
+        height: 11px;
+        background: #FFFFFF;
+    }
+
 
 }
 @media (max-width: 992px) {
@@ -749,13 +772,321 @@
 
 }
 @media (max-width: 376px) {
+    .hero-title h1 {
+        font-size: 22px;
+    }
+    .hero-title p {
+        font-size: 12px;
+    }
+    .hero-title button {
+        width: 111px;
+        height: 27px;
+        font-size: 8px;
+    }
+    .hero-drone {
+        bottom: 48px;
+        left: -104px;
+    }
+    .figur {
+        bottom: -83px;
+        right: 139px;
+    }
+    .hero-img-title {
+        bottom: 32px;
+        right: 194px;
+    }
+    .ion {
+        bottom: -183px;
+        right: 21px;
+        font-size: 17px;
+    }
+    .figurs {
+        bottom: -176px;
+        left: 36px;
+        width: 97px;
+        /* height: 15px; */
+    }
+    .blocks-label label {
+        margin: 0 10px;
+        font-weight: 400;
+        font-size: 11px;
+        color: #2A2D46;
+    }
+    .blocks {
+        width: 340px;
+        font-size: 1px;
+    }
+    .card h1 {
+        font-size: 13px;
+    }
+    .card img {
+        width: 60%;
+    }
+    .card-title-left p {
+        font-weight: 400;
+        font-size: 9px;
+        line-height: 19px;
+        color: #2C3BA0;
+    }
+    .card-title-right p {
+         font-weight: 400;
+         font-size: 9px;
+         line-height: 19px;
+         color: #2C3BA0;
+     }
+    .card-price h2 {
+        font-size: 12px;
+    }
+    .card-price a {
+        font-size: 20px;
+    }
+    .card-title {
+        padding: 19px 20px;
+    }
+    .card {
+        height: 325px;
+        width: 180px;
+    }
+    .number-title {
+        font-weight: 900;
+        font-size: 16px;
+        color: #2A2D46;
+        padding: 50px 0;
+    }
+    .number h1 {
+        font-size: 28px;
+    }
+    .number p {
+        font-size: 8px;
+        padding: 0 2px;
+    }
+    .number {
+        width: 320px;
+    }
+    .footer {
+        padding: 41px 0;
+    }
+    .footer img {
+        width: 40%;
+    }
+    .header img {
+         width: 40%;
+     }
+    .footer button {
+        width: 95px;
+        height: 23px;
+        border: 1px solid #EB2D66;
+        font-weight: 700;
+        font-size: 9px;
+        line-height: 13px;
+        color: #EB2D66;
+        transition: .4s;
+    }
+    .music-left-title h1 {
+        font-size: 16px;
+    }
+    .music-left-title p {
+        font-size: 10px;
+    }
+    .music-figur1 {
+        top: 113px;
+        left: 51px;
+        width: 14px;
+        height: 14px;
+    }
+    .music-figur2 {
+        top: 30px;
+        left: 268px;
+        width: 14px;
+        height: 14px;
+    }
+    .music-right-title h1 {
+        font-size: 14px;
+    }
+    .music-right-title {
+        top: 158px;
+        left: 67px;
+    }
+    .music-right-title p {
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 135.9%;
+        color: #FFFFFF;
+    }
+    .music-icon1 {
+        top: 143px;
+        left: 47px;
+        width: 14px;
+        height: 14px;
+    }
+    .music-icon2 {
+        top: 39px;
+        left: 291px;
+        width: 14px;
+        height: 14px;
+    }
+
 
 
 }
 @media (max-width: 320px) {
+    .hero-img img {
+        width: 40%;
+        margin-left: 101px;
+    }
+    .hero-title h1 {
+        font-size: 18px;
+    }
+    .hero-title p {
+        font-size: 10px;
+    }
+    .hero-title button {
+        width: 98px;
+        height: 24px;
+        font-size: 7px;
+    }
+    .hero-drone img {
+        width: 25%;
+    }
+    .hero-drone {
+        bottom: 84px;
+        left: -161px;
+    }
+    .hero-img-title h1 {
+        font-size: 9px;
+    }
+    .hero-img-title p {
+        font-size: 7px;
+        padding: 1px 0;
+    }
+    .hero-img-title h2 {
+        font-size: 7px;
+    }
+    .hero-img-title {
+        bottom: 73px;
+        right: 225px;
+    }
+    .figur {
+        width: 10px;
+        height: 9px;
+    }
+    .figur {
+        bottom: -62px;
+        right: 125px;
+    }
+    .figurs {
+        bottom: -128px;
+        left: 36px;
+        width: 78px;
+    }
+    .ion {
+        bottom: -135px;
+        right: 25px;
+        font-size: 16px;
+    }
+    .blocks-label label {
+        font-size: 9px;
+    }
+    .blocks {
+        width: 296px;
+        font-size: 1px;
+    }
+    .blocks h1 {
+        font-size: 16px;
+    }
+    .line {
+        width: 75%;
+        margin-left: 32px;
+    }
+    .music-left-title h1 {
+        font-size: 14px;
+    }
+    .music-left-title p {
+        font-size: 8px;
+    }
+    .music-left-title {
+        bottom: 75px;
+        left: 69px;
+    }
+    .music-figur1 {
+        top: 97px;
+        left: 51px;
+        width: 12px;
+        height: 12px;
+    }
+    .music-figur2 {
+        top: 27px;
+        left: 223px;
+        width: 12px;
+        height: 12px;
+    }
+    .music-right-title h1 {
+        font-size: 12px;
+    }
+    .music-right-title p {
+        font-weight: 400;
+        font-size: 9px;
+        line-height: 135.9%;
+        color: #FFFFFF;
+    }
+    .music-right-title {
+        top: 139px;
+        left: 63px;
+    }
+    .music-icon1 {
+        top: 127px;
+        left: 44px;
+        width: 12px;
+        height: 12px;
+    }
+    .music-icon2 {
+        top: 33px;
+        left: 248px;
+        width: 12px;
+        height: 12px;
+    }
+    .catalog-title {
+        font-weight: 900;
+        font-size: 20px;
+        color: #2A2D46;
+        padding: 60px 0;
+    }
+    .number h1 {
+        font-size: 26px;
+    }
+    .number p {
+        font-size: 7px;
+        padding: 0 2px;
+    }
+    .number {
+        width: 287px;
+    }
+    .number-title {
+        font-weight: 900;
+        font-size: 14px;
+        color: #2A2D46;
+        padding: 50px 0;
+    }
+    .footer button {
+        width: 74px;
+        height: 19px;
+        border: 1px solid #EB2D66;
+        font-weight: 700;
+        font-size: 7px;
+        line-height: 13px;
+        color: #EB2D66;
+        transition: .4s;
+    }
 
 
-}
+
+
+
+
+
+
+
+    }
 
 
 
